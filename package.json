@@ -1,0 +1,29 @@
+{
+  "name": "notes",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --driver-package=practicalmeteor:mocha --port 9000"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.3",
+    "meteor-node-stubs": "~0.2.4",
+    "moment": "^2.17.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-addons-pure-render-mixin": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-props": "0.0.3",
+    "react-router": "^3.0.0",
+    "simpl-schema": "0.0.3"
+  },
+  "engines": {
+    "node": "4.8.4"
+  },
+  "devDependencies": {
+    "enzyme": "^2.7.1",
+    "expect": "^1.20.2",
+    "react-addons-test-utils": "^15.4.1"
+  }
+}
