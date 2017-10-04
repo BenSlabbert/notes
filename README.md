@@ -1,3 +1,2 @@
-# Boiler plate for meteor project
-
-Include basic react and auth setup
+# notes
+This is the notes app from the Meteor-React Udemy course: http://udemy.com/meteor-react/
