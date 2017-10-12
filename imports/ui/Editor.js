@@ -47,7 +47,7 @@ export class Editor extends React.Component {
 
         if (this.props.note) { // we have a note
             return (
-                <p>
+                <div className="editor">
                     <input value={this.state.title}
                            placeholder="Untitled"
                            onChange={this.handleTitleChange.bind(this)}/>
@@ -60,14 +60,16 @@ export class Editor extends React.Component {
                         this.props.browserHistory.push('/dashboard');
                     }}>Delete Note
                     </button>
-                </p>
+                </div>
             );
         } else { // nothing selected
             return (
-                <p>
-                    {this.props.selectedNoteId ? 'Note not found'
-                        : 'Pick or create a note to start!'}
-                </p>
+                <div className="editor">
+                    <p>
+                        {this.props.selectedNoteId ? 'Note not found'
+                            : 'Pick or create a note to start!'}
+                    </p>
+                </div>
             );
         }
     }
