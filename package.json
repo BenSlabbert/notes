@@ -2,7 +2,7 @@
   "name": "notes",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "start": "meteor run --port 9000",
     "test": "meteor test --driver-package=practicalmeteor:mocha --port 9000"
   },
   "dependencies": {
