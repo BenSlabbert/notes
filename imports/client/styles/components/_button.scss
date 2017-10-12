@@ -6,7 +6,7 @@
   font-size: $base-font-size;
   line-height: 1.2;
   margin-bottom: $space;
-  padding: $input-sapcing;
+  padding: $input-spacing;
   text-transform: uppercase;
 }
 
@@ -34,5 +34,5 @@
 .button--secondary {
   background: $button-secondary-bg;
   border: 1px solid $button-secondary-border-color;
-  color: $button-secondary-color
+  color: $button-secondary-color;
 }
