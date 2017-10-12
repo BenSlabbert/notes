@@ -10,7 +10,7 @@ $body-default-color: #333333;
 
 // spacing
 $space: 1.4rem;
-$site-max-width: 50rem;
+$site-max-width: 100rem;
 
 // font sizes
 $base-font-size: $space;
@@ -41,3 +41,7 @@ $head-color: white;
 $item-bg: $light-grey;
 $item-border: darken($item-bg, 8%);
 $item-text-color: $dark-grey;
+
+// page content
+$page-content-sidebar-width: 30rem;
+$page-content-main-width: calc(#{$site-max-width} - #{$page-content-sidebar-width});
