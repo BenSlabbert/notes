@@ -1,7 +1,7 @@
 // colors
 $brand-primary: #397ab1;
 $grey: #dddddd;
-$light-grey: #f9f9f9;
+$light-grey: #e9e9e9;
 $dark-grey: #777777;
 
 // Body
@@ -41,9 +41,7 @@ $head-color: white;
 $header-height: 6rem;
 
 // item
-$item-bg: $light-grey;
-$item-border: darken($item-bg, 8%);
-$item-text-color: $dark-grey;
+$item-border-width: 4px;
 
 // page content
 $page-content-sidebar-width: 30rem;

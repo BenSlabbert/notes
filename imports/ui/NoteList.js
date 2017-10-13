@@ -15,8 +15,6 @@ export const NoteList = (props) => {
         <div className="item-list">
             <NoteListHeader/>
 
-            NoteList {props.notes.length}
-
             {props.notes.length === 0 ? (
                 <NoteListEmptyItem/>) : (props.notes.map((note) => {
                 return (
